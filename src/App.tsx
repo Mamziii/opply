@@ -4,6 +4,7 @@ import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Header from "./components/Header/Header";
 import PopularCategories from "./components/PopularCategories/PopularCategories";
+import FeaturedVipJobs from "./components/FeaturedVipJobs/FeaturedVipJobs";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Navbar />
         <Header />
         <PopularCategories />
+        <FeaturedVipJobs />
       </div>
     </>
   );
