@@ -11,7 +11,7 @@ export default function Header() {
       <header className="bg-white dark:bg-background-dark py-16 lg:py-24 overflow-x-hidden">
         <div className="relative max-w-7xl mx-auto px-4 md:px-6 lg:px-8 flex flex-col items-center text-center">
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 bg-green-100 dark:bg-primary/10 text-primary px-3 py-1 rounded-full text-xs font-bold mb-6 border border-green-200 dark:border-primary/20">
+          <div className="inline-flex items-center gap-2 bg-green-100 dark:bg-primary/10 text-primary px-3 py-1 rounded-full text-xs font-bold mt-5 mb-6 border border-green-200 dark:border-primary/20">
             <span className="relative flex size-2">
               <span className="animate-ping inline-flex size-full rounded-full bg-primary opacity-75 absolute"></span>
               <span className="bg-primary inline-flex rounded-full size-full"></span>
@@ -21,7 +21,7 @@ export default function Header() {
 
           {/* Title */}
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-text-main dark:text-text-main-dark mb-6">
-            شغل رویایی‌تان را <span className="text-primary">همین امروز</span>{" "}
+            شغل رویایی‌تان را <span className="text-primary">همین امروز</span>
             پیدا کنید
           </h1>
 
