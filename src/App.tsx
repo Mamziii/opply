@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Header from "./components/Header/Header";
 import PopularCategories from "./components/PopularCategories/PopularCategories";
 import FeaturedVipJobs from "./components/FeaturedVipJobs/FeaturedVipJobs";
+import HowItsWork from "./components/HowItsWork/HowItsWork";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Header />
         <PopularCategories />
         <FeaturedVipJobs />
+        <HowItsWork />
       </div>
     </>
   );
