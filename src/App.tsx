@@ -6,6 +6,7 @@ import Header from "./components/Header/Header";
 import PopularCategories from "./components/PopularCategories/PopularCategories";
 import FeaturedVipJobs from "./components/FeaturedVipJobs/FeaturedVipJobs";
 import HowItsWork from "./components/HowItsWork/HowItsWork";
+import RecentJobsList from "./components/RecentJobsList/RecentJobsList";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <PopularCategories />
         <FeaturedVipJobs />
         <HowItsWork />
+        <RecentJobsList />
       </div>
     </>
   );
