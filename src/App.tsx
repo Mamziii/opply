@@ -10,6 +10,7 @@ import RecentJobsList from "./components/RecentJobsList/RecentJobsList";
 import TopEmployers from "./components/TopEmployers/TopEmployers";
 import Boxes from "./components/Boxes/Boxes";
 import Articles from "./components/Articles/Articles";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <TopEmployers />
         <Boxes />
         <Articles />
+        <Footer />
       </div>
     </>
   );

@@ -20,13 +20,13 @@ export default function Header() {
           </div>
 
           {/* Title */}
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-text-main dark:text-text-main-dark mb-6">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-text-main dark:text-text-main-dark mb-6 my-5">
             شغل رویایی‌تان را <span className="text-primary">همین امروز</span>
             پیدا کنید
           </h1>
 
           {/* Description */}
-          <p className="text-lg text-text-secondary mb-10 max-w-7xl">
+          <p className="text-lg text-text-secondary mb-10 max-w-7xl my-5">
             بهترین فرصت‌های شغلی در معتبرترین شرکت‌های ایران را جستجو کنید و
             آینده شغلی خود را بسازید.
           </p>
