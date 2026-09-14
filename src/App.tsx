@@ -9,6 +9,7 @@ import HowItsWork from "./components/HowItsWork/HowItsWork";
 import RecentJobsList from "./components/RecentJobsList/RecentJobsList";
 import TopEmployers from "./components/TopEmployers/TopEmployers";
 import Boxes from "./components/Boxes/Boxes";
+import Articles from "./components/Articles/Articles";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <RecentJobsList />
         <TopEmployers />
         <Boxes />
+        <Articles />
       </div>
     </>
   );
