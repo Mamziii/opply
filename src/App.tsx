@@ -8,6 +8,7 @@ import FeaturedVipJobs from "./components/FeaturedVipJobs/FeaturedVipJobs";
 import HowItsWork from "./components/HowItsWork/HowItsWork";
 import RecentJobsList from "./components/RecentJobsList/RecentJobsList";
 import TopEmployers from "./components/TopEmployers/TopEmployers";
+import Boxes from "./components/Boxes/Boxes";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <HowItsWork />
         <RecentJobsList />
         <TopEmployers />
+        <Boxes />
       </div>
     </>
   );
